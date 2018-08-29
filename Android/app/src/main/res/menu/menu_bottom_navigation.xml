@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_connection"
+        android:checked="true"
+        android:icon="@drawable/ic_connection"
+        android:title="Connection"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_subscribe"
+        android:checked="false"
+        android:icon="@drawable/ic_subscribber"
+        android:title="Subscrib"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_publish"
+        android:checked="false"
+        android:icon="@drawable/ic_publisher"
+        android:title="Publish"
+        app:showAsAction="ifRoom" />
+</menu>
